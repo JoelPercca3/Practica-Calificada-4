@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  margin: 20px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.character-image {
+  width: 100%;
+  height: auto;
+}
+
+.rectangle {
+  width: 70px;
+  height: 30px;
+  background-color: green;
+  border-radius: 5%;
+}
